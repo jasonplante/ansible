@@ -1,0 +1,8 @@
+---
+  - name: Install Apps from MSIs
+    hosts: all
+
+    tasks:
+      - win_chocolatey:
+        name: plantronicshub
+         
